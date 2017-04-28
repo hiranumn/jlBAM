@@ -1,3 +1,4 @@
+module jlBAM
 #reference contig
 
 type ReferenceContigs
@@ -101,4 +102,6 @@ function advance!(r::BamReader)
             return
         end
     end
+end
+
 end
